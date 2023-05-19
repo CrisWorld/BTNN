@@ -1,0 +1,57 @@
+
+div.menu{
+    display: block; 
+    background-color: black;
+    margin: 10px;
+    padding-left: 30px;
+    height: 30px;
+}
+ul{
+    display: inline;
+    list-style: none; 
+    color: white; 
+    
+}
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    line-height: 30px;
+    
+}
+li.trai{
+   float: right;
+}
+li:hover{
+    background-color:white;
+    color: black;
+    cursor: pointer;
+}
+.bottom
+{
+    display: grid;
+    grid-template-columns: 700px 350px;
+    grid-template-rows: 200px 100px 100px 100px;
+    background-color: whitesmoke;
+    gap: 10px;
+}
+.first >p, .second > p{
+    font-size: 10px;
+}
+.first
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.second{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: ;
+}
+.item{
+    background-color: white;
+}
